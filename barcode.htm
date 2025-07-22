@@ -80,12 +80,12 @@ let prodName = urlParams.get('name');
 let value2 = urlParams.get('value2');
 if (value2) {
     document.getElementById('value2').src = `https://barcodeapi.org/api/128/${value2}?text=none`;
-    document.getElementById('enabled2').visiblity;
+    document.getElementById('enabled2').visiblity = "visible";
 }
 let value3 = urlParams.get('value3');
 if (value3) {
     document.getElementById('value3').src = `https://barcodeapi.org/api/128/${value3}?text=none`;
-    document.getElementById('enabled3').visiblity;
+    document.getElementById('enabled3').visiblity = "visible";
 }
 document.getElementById('prodName').textContent = prodName;
 document.getElementById('value1').src = `https://barcodeapi.org/api/${type}${value1}?text=none`;
